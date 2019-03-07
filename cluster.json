@@ -7,8 +7,8 @@
     "attributeValueRegex": "[^\\w\\s\\.:;-#/]"
   },
   "processorUrl": "wss://rs-processor.herokuapp.com/",
-  "storageUrl":   "https://rs-storage.herokuapp.com/api/",
-  "cdnUrl":       "https://rs-storage.herokuapp.com/api/",
+  "storageUrl":   "https://prod-reality-space-storage.herokuapp.com/api/",
+  "cdnUrl":       "https://prod-reality-space-storage.herokuapp.com/api/",
   "edge": 280,
   "step": 20,
   "range": 40,
