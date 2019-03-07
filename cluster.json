@@ -6,7 +6,7 @@
     "allowedAttributes": "src,geometry,material,position,rotation,quaternion,scale,sound,text,sid,color,model,gltf-model,animator,avatar,collidable,oid,type,parameters,set-id,picture,billboard",
     "attributeValueRegex": "[^\\w\\s\\.:;-#/]"
   },
-  "processorUrl": "wss://rs-processor.herokuapp.com/",
+  "processorUrl": "wss://prod-reality-space-processor.herokuapp.com/",
   "storageUrl":   "https://prod-reality-space-storage.herokuapp.com/api/",
   "cdnUrl":       "https://prod-reality-space-storage.herokuapp.com/api/",
   "edge": 280,
@@ -15,7 +15,7 @@
   "spaces": ["default", "dynamic-*"],
   "maxSpaces": 100,
   "regions": [
-    { "x":    0, "y":   0, "z":    0, "processorUrl": "wss://rs-processor-0-0-0.herokuapp.com/"},
+    { "x":    0, "y":   0, "z":    0},
     { "x":  200, "y":   0, "z":    0},
     { "x":    0, "y":   0, "z":  200},
     { "x":  200, "y":   0, "z":  200},
